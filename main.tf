@@ -11,8 +11,9 @@ provider "google" {
 ###################
 #
 # In your billing org:
-# - `billing_account_user` needs to be a `BillingAccountAdministrator` for the
-#   billing account within the billing org
+# - `billing_account_user` needs to be able to create billing accounts within
+#   the billing org.  I'm not sure if they need to be a
+#   `BillingAccountAdministrator` for the billing account within the billing org.
 #
 # In your gsuite org:
 # - `gsuite_user` needs to be an `OrganizationAdministrator`
