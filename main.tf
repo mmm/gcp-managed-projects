@@ -6,20 +6,6 @@ provider "google" {
   region      = "${var.region}"
 }
 
-#data "google_active_folder" "department1" {
-  #display_name = "Department 1"
-  #parent = "organizations/1234567"
-#}
-#data "google_folder" "my_folder_1" {
-  #folder = "folders/12345"
-  #lookup_organization = true
-#}
-
-#data "google_billing_account" "acct" {
-  #display_name = "My Billing Account"
-  #open         = true
-#}
-
 ###################
 # IAM role setup
 ###################
