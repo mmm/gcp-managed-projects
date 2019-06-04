@@ -1,0 +1,7 @@
+
+billing_account_user = "me@billing.org"
+billing_folder_id = "234567890123" # my-billing-folder
+billing_account_id = "aaaaaa-bbbbbb-cccccc" # my-billing-account
+
+gsuite_user = "me@mycoolgsuite.com"
+gsuite_org_id = "345678901234" # mycoolgsuite.com
